@@ -11,10 +11,10 @@ jobs:
         with:
           node-version: 20.x
       - name: Run install
-        uses: borales/actions-yarn@v4
+        uses: https://github.com/borales/actions-yarn@v4
         with:
           cmd: install
       - name: Build production bundle
-        uses: borales/actions-yarn@v4
+        uses: https://github.com/borales/actions-yarn@v4
         with:
           cmd: build
